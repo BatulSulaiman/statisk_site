@@ -96,3 +96,7 @@
 .card--soldout .price {
   color: #6b6b6b;
 }
+#loadMore {
+  display: block;
+  margin: 16px auto 32px;
+}

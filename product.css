@@ -8,6 +8,7 @@
   gap: 24px;
   grid-template-columns: 1.15fr 1fr 0.8fr; /* billede • info • køb */
   align-items: start;
+  align-self: start;
 }
 
 @media (max-width: 900px) {
@@ -32,6 +33,7 @@
 .ps-info {
   display: grid;
   gap: 12px;
+  padding-top: 16px;
 }
 .ps-title {
   margin: 0;
@@ -104,8 +106,6 @@
 .ps-btn:hover {
   filter: brightness(1.05);
 }
-.ps-note {
-  color: var(--muted);
-  font-size: 0.85rem;
+figure.ps-media {
   margin: 0;
 }
