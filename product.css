@@ -6,7 +6,7 @@
 .ps {
   display: grid;
   gap: 24px;
-  grid-template-columns: 1.15fr 1fr 0.8fr; /* billede • info • køb */
+  grid-template-columns: 1.15fr 1fr 0.8fr;
   align-items: start;
   align-self: start;
 }
@@ -93,7 +93,6 @@
   background: #fff;
 }
 
-/**knap med ingen funktion*/
 .ps-btn {
   width: 100%;
   border-radius: 10px;

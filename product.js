@@ -1,7 +1,7 @@
 console.log("product page loaded");
 
 const params = new URLSearchParams(window.location.search);
-const id = params.get("id") || 1915; // fallback
+const id = params.get("id") || 1915;
 const productUrl = `https://kea-alt-del.dk/t7/api/products/${id}`;
 
 fetch(productUrl)
@@ -36,5 +36,6 @@ function show(data) {
         </label>
         <button class="btn ps-btn" type="button">Add to basket</button>
       </aside>
-    </article>`;
+    </article>
+  `;
 }
